@@ -1,0 +1,13 @@
+# Ignorar todos los archivos .exe
+*.exe
+
+# Ignorar todas las carpetas llamadas 'output' en cualquier nivel
+output/
+**/output/
+
+# Ignorar la carpeta .vscode (configuraciones de VS Code)
+.vscode/
+
+# Ignorar específicamente el archivo settings.json en cualquier lugar
+settings.json
+**/settings.json
